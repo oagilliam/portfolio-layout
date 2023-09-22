@@ -18,6 +18,12 @@ h2 span{
     font-weight: 900;
 }
 
+h1 span,
+h2 span,
+.small-text{
+    color: #99D930;
+}
+
 h1, 
 h2, 
 p{
