@@ -1,3 +1,6 @@
+Simple portfolio layout to practice CSS and HTML.
+
+___________________________________________________________
 # co16847cda0cdbd2894461b11
 
 Quick start:
