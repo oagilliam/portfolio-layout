@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.main-container{
+    border: 3px solid blue;
+    text-align: center;
+    width: 650px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+h1 span,
+h2 span{
+    font-weight: 900;
+}
+
+h1, 
+h2, 
+p{
+    font-weight: 300;
+}
+
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+h3{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    color: #99D930;
+}
+
+a:hover{
+    color: #131313;
+}
+
