@@ -1,14 +1,16 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
+    margin: 0;
+}
+
+.bgd-color-container{
+    width: 650px;
+    margin: 0 auto;
 }
 
 .main-container{
-    border: 3px solid blue;
     text-align: center;
-    width: 650px;
-    margin: 0 auto;
-    padding: 5px;
 }
 
 h1 span,
@@ -22,6 +24,10 @@ p{
     font-weight: 300;
 }
 
+h1,
+h2{
+    margin-top: 0;
+}
 
 h1{
     font-size: 80px;
@@ -34,17 +40,43 @@ h2{
 h3{
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 0;
+}
+
+.small-text{
+    margin-top: 5px;
+    font-size: 16px;
 }
 
 p{
-    font-size: 16px;
+    margin-bottom: 0;
 }
 
 a{
     color: #99D930;
+    font-weight: 900;
 }
 
-a:hover{
+a:hover
+a:focus{
     color: #131313;
 }
 
+header,
+.bottom-container{
+    padding: 100px 0;
+}
+
+.middle-container{
+    padding: 50px;
+}
+
+header,
+.bottom-container {
+    background-color: #252525;
+    color: #fff;
+}
+
+.middle-container {
+    background-color: white;
+}
